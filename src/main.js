@@ -24,6 +24,7 @@ function callback(mutationList, observer) {
         }
       });
       const video = document.querySelector("video");
+      // console.log(video);
       if (video != undefined) {
         video.play();
       }
